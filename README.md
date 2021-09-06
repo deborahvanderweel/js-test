@@ -51,7 +51,7 @@ Daaronder zie je de verschillende objecten die true of false teruggeven. In mijn
 ```
 ## Hoe test ik dit nou?
 Goeie vraag!
-- Je kunt in de `index.js` de huidige objecten aanpassen en spelen met de verschillende data types. 
+- Je kunt in de `script.js` de huidige objecten aanpassen en spelen met de verschillende data types. 
 - Ook kun je een nieuw object toevoegen en checken of deze werkt. 
 
 #### let op: 
