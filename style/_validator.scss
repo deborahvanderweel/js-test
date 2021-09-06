@@ -1,0 +1,52 @@
+.gamesContainer {
+    width: 100vw;
+
+    .title {
+        display: flex;
+        justify-content: center;
+        font-family: "Gilroy-ExtraBold";
+        font-size: 32px;
+    }
+
+    .cardsContainer {
+        margin-top: 48px;
+        max-width: 100vw;
+        justify-content: center;
+        display: flex;
+
+        .card {
+            width: 408px;
+            border-radius: 8px;
+            box-shadow: 0 13px 27px -5px rgba(50, 50, 93, 0.25), 0 8px 16px -8px rgba(0, 0, 0, 0.3);
+            margin-right: 24px;
+            padding: 16px;
+
+            p {
+                font-family: "Inter-SemiBold";
+                margin-right: 16px;
+                min-width: 80px;
+            }
+
+            .wrong {
+                color: red;
+                display: flex;
+                align-items: center;
+
+                .failIcon {
+                    width: 24px;
+                    margin-right: 16px;
+                }
+            }
+
+            .correct {
+                display: flex;
+                align-items: center;
+
+                .checkmark {
+                    width: 24px;
+                    margin-right: 16px;
+                }
+            }
+        }
+    }
+}

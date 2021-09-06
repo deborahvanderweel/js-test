@@ -1,0 +1,114 @@
+.gamesContainer {
+  width: 100vw;
+}
+
+.gamesContainer .title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: "Gilroy-ExtraBold";
+  font-size: 32px;
+}
+
+.gamesContainer .cardsContainer {
+  margin-top: 48px;
+  max-width: 100vw;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.gamesContainer .cardsContainer .card {
+  width: 408px;
+  border-radius: 8px;
+  -webkit-box-shadow: 0 13px 27px -5px rgba(50, 50, 93, 0.25), 0 8px 16px -8px rgba(0, 0, 0, 0.3);
+          box-shadow: 0 13px 27px -5px rgba(50, 50, 93, 0.25), 0 8px 16px -8px rgba(0, 0, 0, 0.3);
+  margin-right: 24px;
+  padding: 16px;
+}
+
+.gamesContainer .cardsContainer .card p {
+  font-family: "Inter-SemiBold";
+  margin-right: 16px;
+  min-width: 80px;
+}
+
+.gamesContainer .cardsContainer .card .wrong {
+  color: red;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.gamesContainer .cardsContainer .card .wrong .failIcon {
+  width: 24px;
+  margin-right: 16px;
+}
+
+.gamesContainer .cardsContainer .card .correct {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.gamesContainer .cardsContainer .card .correct .checkmark {
+  width: 24px;
+  margin-right: 16px;
+}
+
+@font-face {
+  font-family: "Inter-Bold";
+  src: local("Inter-Bold"), url("../fonts/Inter-Bold.ttf") format("truetype");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Inter-SemiBold";
+  src: local("Inter-SemiBold"), url("../fonts/Inter-SemiBold.ttf") format("truetype");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Inter-Regular";
+  src: local("Inter-Regular"), url("../fonts/Inter-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Inter-Light";
+  src: local("Inter-Light"), url("../fonts/Inter-Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Inter-Light";
+  src: local("Inter-Light"), url("../fonts/Inter-Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Gilroy-Light";
+  src: local("Gilroy-Light"), url("../fonts/Gilroy-Light.otf") format("truetype");
+}
+
+@font-face {
+  font-family: "Gilroy-ExtraBold";
+  src: local("Gilroy-ExtraBold"), url("../fonts/Gilroy-ExtraBold.otf") format("truetype");
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter-Regular';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+/*# sourceMappingURL=style.css.map */
